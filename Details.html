@@ -1,0 +1,65 @@
+<link rel="stylesheet" href="./details.css">
+<link rel="stylesheet" href="crd.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<nav class="navbar navbar-expand-lg navbar-light  navbar-light" style="background-color: #e3f2fd;">
+    <div class="container-fluid ">
+      <a class="navbar-brand" href="#"><b>Algo<span class="clr">Skill</span> </b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Help</a>
+          </li>
+          
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+<div>
+    <div class="container" >
+        <h1 class="clrr">Bubble Sort</h1>
+    <h4>Bubble is shorting algorithm which works by repeat swapping process to short elements if they
+        in wrong order.
+        </h4>
+        <p>
+            Bubble sort, also referred to as comparison sort, is a simple sorting algorithm that repeatedly goes through the list, compares adjacent elements and swaps them if they are in the wrong order. This is the most simplest algorithm and inefficient at the same time. Yet, it is very much necessary to learn about it as it represents the basic foundations of sorting.
+        </p>
+    
+    
+    
+        <h2>Application</h2>
+    
+    <p>
+        Understand the working of Bubble sort. <br>
+    1)Bubble sort is mainly used in educational purposes for helping students understand the foundations of sorting. <br>
+    2)This is used to identify whether the list is already sorted. When the list is already sorted , the complexity of bubble sort is only O(n). <br>
+    3)In real life, bubble sort can be visualised when people in a queue wanting to be standing in a height wise sorted manner swap their positions among themselves until everyone is standing based on increasing order of heights. <br>
+    </p>
+    
+    <h2>Explanation:</h2> 
+    
+    1)Let us say, we have an array of length n. To sort this array we do the above step (swapping) for n - 1 passes. <br>
+    2)In simple terms, first, the largest element goes at its extreme right place then, second largest to the last by one place, and so on. In the ith pass, the ith largest element goes at its right place in the array by swappings. <br>
+    3)In mathematical terms, in ith pass, at least one element from (n - i + 1) elements from start will go at its right place. That element will be the ith (for 1 <= i <= n - 1) largest element of the array. Because in the ith pass of the array, in the jth iteration (for 1 <= j <= n - i), we are checking if a[j] > a[j + 1], and a[j] will always be greater than a[j + 1] when it is the largest element in range [1, n - i + 1]. Now we will swap it. This will continue until ith largest element is at the (n - i + 1)th position of the array.
+    
+    
+    
+    </div>
+    <div>
+    
+        <h2>Pseudocode of Bubble Sort Algorithm</h2>
+        <img src="./Capture.PNG" alt="">
+    </div>
+</div>

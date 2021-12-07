@@ -1,0 +1,61 @@
+<link rel="stylesheet" href="details.css">
+<link rel="stylesheet" href="crd.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<nav class="navbar navbar-expand-lg navbar-light  navbar-light" style="background-color: #e3f2fd;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><b>Algo<span class="clr">Skill</span> </b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Help</a>
+          </li>
+          
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+<div class="container"><h1 class="clrr">FAQs</h1>
+    <h4>What is the best case time complexity of bubble sort?</h4> 
+    <p> The time complexity in the best case scenario is O(n) because it has to traverse through all the elements once to recognize that the array is already sorted.</p>
+    
+    <h4> What is the advantage of bubble sort over other sorting techniques?</h4>
+    <p>
+    The built-in ability to detect whether the list is sorted efficiently is the only advantage of bubble sort over other sorting techniques.
+    When the list is already sorted (which is the best-case scenario), the complexity of bubble sort is only O(n).
+    It is faster than other in case of sorted array and consumes less time to describe whether the input array is sorted or not.</p>
+    <h4>Why bubble sort is called “bubble” sort?</h4>
+    <p>The “bubble” sort is called so because the list elements with greater value than their surrounding elements “bubble” towards the end of the list. For example, after first pass, the largest element is bubbled towards the right most position. After second pass, the second largest element is bubbled towards the second last position in the list and so on.</p>
+    
+    <h4>Is bubble sort a stable algorithm?</h4>
+    <p>
+    Bubble sort is a stable algorithm.
+    A sorting algorithm is said to be stable if two objects with equal keys appear in the same order in sorted output as they appear in the input array to be sorted. </p>
+    <h4>Is bubble sort an inplace algorithm?</h4>
+    <p>
+    Bubble sort is an inplace algorithm.
+    An algorithm is said to be inplace if it does not need an extra space and produces an output in the same memory that contains the data by transforming the input ‘in-place’. However, a small constant extra space used for variables is allowed. </p>
+    <h4>Is Bubble sort slow?</h4>
+    <p>
+    Bubble sort is slower than the other O(n2) sorting algorithms.
+    It is about four times as slow as insertion sort and twice as slow as selection sort.
+    It has a good best-case behavior, but is impractically slow on almost all real world data sets and is not considered for implementation in real applications. </p>
+    <h4>Can bubble sort be implemented recursively?</h4>
+    <p>
+    Yes.
+    Recursive Bubble Sort has no additional performance/implementation advantages, but can be used to understand recursion and sorting concepts better.
+    Base Case: If array size is 1, return.
+    Do One Pass of normal Bubble Sort. This pass bubbles largest element of current subarray to correct position.
+    Recur for all elements except last of current subarray.</p></div>
