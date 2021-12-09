@@ -60,4 +60,8 @@
   .clr{
     color: tomato;
   }
-  
+  .txt{
+  color: rgb(47, 11, 5);
+  text-align: center;
+  align-items: center;
+  }
